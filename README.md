@@ -26,3 +26,12 @@ Los 3 servicios responden un JSON con esta forma:
 ]
 }
 
+
+
+Ejemplos de peticiones al servicio:
+
+http://issmexico.net:93/terminalGet?idTerminal=1
+
+http://issmexico.net:93/terminalEnd=idTerminal=1
+
+http://issmexico.net:93/terminalPost?idTerminal=1&inputText=Nueva transacción
